@@ -18,10 +18,14 @@ print(c)'''
 input: 
 5'''
 
-
+'''
 c = 1
 n = int(input("your number= "))
 for i in range(1,n+1): # multiplication me nevr take zero
     c =(c*i) 
 print(c)
+'''
 
+r = int(input("input radius= "))
+a = 3.14 * r * r  
+print("here is area of circle =" , a )  
