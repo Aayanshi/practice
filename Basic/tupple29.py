@@ -1,0 +1,10 @@
+#lets go for tupple
+t1 = ("yes","we","can","do","1")
+print(type(t1))
+t2 =(1, 3, 4, "hey")
+print(tuple(t1))
+print(type(t2))
+print(t1[3])
+t1 = list(t1)
+t1.append(2)
+print(tuple(t1))
