@@ -53,8 +53,8 @@ print(list[d2.keys()])
 print(list[d2.values()])
 print(d1["k4"])'''
 
-
-
+'''
+#occurance
 l = [1,2,1,1,1,2,3,4,5,5,5]
 d = dict()
 for i in l:
@@ -65,7 +65,7 @@ for i in l:
          d[i] += 1
 
 print(d)
-
+# max
 l = [14,6,2,7,1,10]
 max = l[0]
 for i in l:
@@ -75,3 +75,24 @@ for i in l:
         max = i
     
 print(max, "is max")    
+'''
+
+'''a:2,b:6,c:19'''
+
+d = { }
+for i in range(1,4):
+    t = input("Name of item =  ") #key names
+    q = int(input("No.of Quantity in item= ")) #values
+    d[t] = q     
+min = float('inf') #infinity
+item = ""
+for i in d.keys():
+    if min > d[i] :
+        min = d[i]
+        item = i
+        
+    else:
+        continue
+    
+print(item,"of quantity",min)     
+

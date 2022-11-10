@@ -1,5 +1,5 @@
 #lets do assignment1
-'''n1 = int(input("enter your first number= "))
+n1 = int(input("enter your first number= "))
 n2 = int(input("enter your second number= "))
 n3 = int(input("enter your third number= "))
 if n1 > n2:
@@ -11,8 +11,8 @@ else:
     print(n2,"this is bigger")     
     if n3 > n2  :
         print(n3,"this is bigger")
-'''
-'''n1 = int(input("enter your first number= "))
+
+n1 = int(input("enter your first number= "))
 n2 = int(input("enter your second number= "))
 n3 = int(input("enter your third number= "))
 if n1 > n2 and n1 > n3:
@@ -20,7 +20,7 @@ if n1 > n2 and n1 > n3:
 elif n2 > n1 and n2 > n3:    
     print(n2,"this is bigger")   
 else: 
-    print(n3,"this is bigger")'''  
+    print(n3,"this is bigger")
 
 
 '''Q-3) FizzBuzz - if a number is divisible by 3 - print Fizz, if a number is
@@ -32,8 +32,8 @@ Fizz-Buzz
 
    
 #to print it as it is
-'''for i in "aaina":
-    print(i,end="")'''
+for i in "aaina":
+    print(i,end="")
 
 #for sum of a list
 curls = [23,34,45678,45,76,69,23]

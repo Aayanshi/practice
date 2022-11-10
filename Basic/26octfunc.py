@@ -1,6 +1,6 @@
 #functions with parameters
 
-'''def cube():
+def cube():
     s = int(input("here= "))
     q = 0
     for i in range(1,s+1):
@@ -9,21 +9,21 @@
     print(q)
 
 cube()
-'''
+
 def add(a,b): #a,b are parameters or arguments here we input
     s = a+b
     return(s)  # here return has stored the answer as output
 
 #there are two ways of printing function values
-'''re = add(12,2) #1. putting into any variable and print them
+re = add(12,2) #1. putting into any variable and print them
 print(re)
 
-print(add(12,2)) '''#2. or we simply print that func. with parameters
+print(add(12,2)) #2. or we simply print that func. with parameters
 
 
 # star function
 
-'''def star(n):
+def star(n):
     
     for i in range(1,n+1):
         for j in range(i):
@@ -32,14 +32,14 @@ print(add(12,2)) '''#2. or we simply print that func. with parameters
         print( )        
 
 n = int(input("here= "))
-star(n)'''
+star(n)
 
 def test(n):
     for i in range(n,1,-1):
         print(i)
     '''    break
     print(0)
-'''
+
 test(10)
 
 def line(n):
