@@ -17,7 +17,7 @@ print(d1)
 
 print(d3)
 
-'''print(d1["k3"])
+print(d1["k3"])
 print(d1["k4"][1:3])
 print(d1["k2"][1:4:2])
 print(d1["k5"])
@@ -51,9 +51,9 @@ k ,"take me here with you", d2[k]
 
 print(list[d2.keys()])
 print(list[d2.values()])
-print(d1["k4"])'''
+print(d1["k4"])
 
-'''
+
 #occurance
 l = [1,2,1,1,1,2,3,4,5,5,5]
 d = dict()
@@ -75,7 +75,7 @@ for i in l:
         max = i
     
 print(max, "is max")    
-'''
+
 
 '''a:2,b:6,c:19'''
 

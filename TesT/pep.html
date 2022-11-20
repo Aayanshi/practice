@@ -1,0 +1,264 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="pep.css">
+
+
+  <div id="outside">
+    <form id="survey-form" action="/my-handling-form-page" method="post">
+      <h1 id="title">Aaina's Python Test</h1>
+      <p id="description"><b>Note:</b> Read the questions atleast twice before attempting</p>
+
+
+      <fieldset>
+
+        <legend>Personal Details</legend>
+        <div>
+          <label id="name-label" for="name">Name:</label>
+          <input type="text" required id="name" name="user_name" placeholder="Enter name here">  
+        </div>
+        <div>
+          <label for="mood-label">mood:</label>
+          <input type="mood" id="mood" name="mood" placeholder="Enter mood here">  
+        </div>
+        <div>
+          <label id="email-label" for="Email">Email:</label>
+          <input type="email" required id="email" name="user_email" placeholder="Enter email here">  
+        </div>
+        <div>
+          <label for="date-label">Date you taking the test:</label>
+          <input type="date" name="bday">
+        </div>
+
+
+      </fieldset>
+
+      <fieldset>
+        <legend>mcq type one mark questions</legend>
+
+
+        <div>
+          <label> Q1 Which keyword is used for function in Python language?</label>
+          <p>
+            <input type="radio" name="answer" value="def"> def<br>
+            <input type="radio" name="answer" value="func"> func<br>
+            <input type="radio" name="answer" value="define"> define<br>
+            <input type="radio" name="answer" value="parenthesis"> parenthesis<br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q2 Which of the following character is used to give single-line comments in Python??</label>
+          <p>
+            <input type="radio" name="answer" value="/*"> /*<br>
+            <input type="radio" name="answer" value="//"> //<br>
+            <input type="radio" name="answer" value="#"> #<br>
+            <input type="radio" name="answer" value="!"> !<br>
+          </p>
+        </div>
+        <div>
+          <label> Q3 Which of the following functions is a built-in function in python?</label>
+          <p>
+            <input type="radio" name="answer" value="print"> print<br>
+            <input type="radio" name="answer" value="seed"> seed<br>
+            <input type="radio" name="answer" value="sqrt"> sqrt<br>
+            <input type="radio" name="answer" value="factorial"> factorial<br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q4 What are the two main types of functions in Python?</label>
+          <p>
+            <input type="radio" name="answer" value="System function"> System function<br>
+            <input type="radio" name="answer" value="Custom function"> Custom function<br>
+            <input type="radio" name="answer" value="Built-in function & User defined function"> Built-in function &
+            User defined function<br>
+            <input type="radio" name="answer" value="User function"> User function<br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q5 Which of the following Python statements will result in the output: 6?</label>
+          <p>
+          <p>A = </p>
+          <p>[[1, 2, 3],</p>
+          <p>[4, 5, 6], </p>
+          <p>[7, 8, 9]] </p>
+          <input type="radio" name="answer" value="A[2][1]"> A[2][1]<br>
+          <input type="radio" name="answer" value="A[1][2]"> A[1][2]<br>
+          <input type="radio" name="answer" value="A[1][1]"> A[1][1]<br>
+          <input type="radio" name="answer" value="A[2][2]"> A[2][2]<br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q6 To add a new element to a list we use which Python command?</label>
+          <p>
+            <input type="radio" name="answer" value="list1.addEnd(5)"> list1.addEnd(5)<br>
+            <input type="radio" name="answer" value="list1.addLast(5)"> list1.addLast(5)<br>
+            <input type="radio" name="answer" value="list1.append(5)"> list1.append(5)<br>
+            <input type="radio" name="answer" value=" list1.add(5)"> list1.add(5)<br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q7 Which of the following statements is used to create an empty set in Python?</label>
+          <p>
+            <input type="radio" name="answer" value=" () "> () <br>
+            <input type="radio" name="answer" value=" [] "> [] <br>
+            <input type="radio" name="answer" value=" {} "> {} <br>
+            <input type="radio" name="answer" value=" set() "> set() <br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q8 What arithmetic operators cannot be used with strings in Python?</label>
+          <p>
+            <input type="radio" name="answer" value="+ "> + <br>
+            <input type="radio" name="answer" value=" - "> - <br>
+            <input type="radio" name="answer" value=" * "> * <br>
+            <input type="radio" name="answer" value="all of the above"> all of the above<br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q9 Which of these is the definition for packages in Python?</label>
+          <p>
+            <input type="radio" name="answer" value=" A set of main modules"> A set of main modules<br>
+            <input type="radio" name="answer" value="A folder of python modules"> A folder of python modules<br>
+            <input type="radio" name="answer" value="A number of files containing Python definitions and statements"> A
+            number of files containing Python definitions and statements<br>
+            <input type="radio" name="answer" value="A set of programs making use of Python modules"> A set of programs
+            making use of Python modules<br>
+          </p>
+        </div>
+
+        <div>
+          <label> Q10 Which of the following is not a core data type in Python programming?</label>
+          <p>
+            <input type="radio" name="answer" value="list"> list<br>
+            <input type="radio" name="answer" value="tuple"> tuple<br>
+            <input type="radio" name="answer" value="dictionary"> dictionary<br>
+            <input type="radio" name="answer" value="class"> class<br>
+          </p>
+        </div>
+      </fieldset>
+
+
+
+
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <label for="feeling">hows you feeling?:</label>
+          <select id="dropdown">
+            <option value="left">excited</option>
+            <option value="right">confused</option>
+            <option value="conservative">hungry</option>
+            <option value="nazi">dizzy</option>
+          </select>
+
+          <label for="ready for the main part">ready for the main part?:</label>
+          <select id="dropdown2">
+            <option value="not at all">not at all</option>
+            <option value="actually no but i have to">actually no but i have to</option>
+            <option value="Secondary">stupid question</option>
+            <option value="None">dont distract me</option>
+          </select>
+        </div>
+      </fieldset>
+
+
+
+      <fieldset>
+        <legend>20 marks questions</legend>
+        <div>
+          <label for="msg"></label>
+          <h1>Q11. Take an integer n from user, print a string array as answer for all the numbers from 1 to n where:
+          </h1>
+
+          <h3>answer[i] == "FizzBuzz" if i is divisible by 3 and 5.</h3>
+          <h3>answer[i] == "Fizz" if i is divisible by 3.</h3>
+          <h3>answer[i] == "Buzz" if i is divisible by 5.</h3>
+          <h3>answer[i] == i (as a string) if none of the above conditions are true.</h3>
+
+          <h4>example1</h4>
+          <h4>Input: n = 3</h4>
+          <h4> for 1,2,3 </h4>
+          <h4>Output: ["1","2","Fizz"]</h4>
+
+
+          <h4>Example 2:</h4>
+
+          <h4>Input: n = 5</h4>
+          <h4>for 1,2,3,4,5</h4>
+          <h4>Output: ["1","2","Fizz","4","Buzz"]</h4>
+          <h5><b>hint: use list methods to create that list in the range till input</b></h5>
+          <p> answer for Question no 11 goes here </p>
+          <textarea id="msg" name="user_message" rows="10" cols="50" placeholder="Enter code Here"></textarea>  
+        </div>
+        <div>
+s
+          <h1>Q12. Given an integer num, print the number of steps to reduce it to zero.
+
+            In one step, if the current number is even, you have to divide it by 2, otherwise,
+            you have to subtract 1 from
+            it.</h1>
+          <h3>Example 1:</h3>
+          <h4>Input: num = 14</h4>
+          <h4>Output: 6</h4>
+          <h4>Explanation:</h4>
+          <h4>Step 1) 14 is even; divide by 2 and obtain 7.</h4>
+          <h4>Step 2) 7 is odd; subtract 1 and obtain 6.</h4>
+          <h4>Step 3) 6 is even; divide by 2 and obtain 3.</h4>
+          <h4>Step 4) 3 is odd; subtract 1 and obtain 2.</h4>
+          <h4>Step 4) 3 is odd; subtract 1 and obtain 2.</h4>
+          <h4>Step 5) 2 is even; divide by 2 and obtain 1.</h4>
+          <h4>Step 6) 1 is odd; subtract 1 and obtain 0.</h4>
+          <h5><b>hint: use while loop like while num !=0 and then write logic inside the loop</b></h5>
+          <label for="msg">ans for question 12 goes here</label><br>
+          <textarea id="msg2" name="user_message" rows="10" cols="50" placeholder="Enter code Here"></textarea>  
+        </div>
+
+        <div>
+
+          <h1>Q13. Write a python program for class "FactoLacto" which have a method which print the factorial of the
+            user integer input.</h1>
+          <h3>inherit it in a child class</h3>
+          <label for="msg">ans for question 13 goes here</label><br>
+          <textarea id="msg2" name="user_message" rows="10" cols="50" placeholder="Enter code Here"></textarea>  
+        </div>
+        <p>attach smiles:
+          <button>oops Attach Files</button>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <label for="Gender">your feedback matters</label>
+        <p>
+          <input type="checkbox" name="tattoo" value="tattoo"> test was tough<br>
+          <input type="checkbox" name="age" value="Car"> it was moderate<br>
+          <input type="checkbox" name="car" value="car"> I loved the questions<br>
+          <input type="checkbox" name="work" value="work" > want to solve more complex problems next time<br>
+          <input type="checkbox" name="rich" value="rich" > time waste<br>
+          <input type="checkbox" name="loc" value="loc" > amazing experience <br>
+        </p>
+      </fieldset>
+
+      <div id="submitbutton">
+        <button type="submit" id="submit">Send your answer sheet</button>  
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>

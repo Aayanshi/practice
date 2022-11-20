@@ -17,7 +17,6 @@ else :
 
 
 
-'''n1 = int(input("enter your no.- "))
+n1 = int(input("enter your no.- "))
 if n1 % 3 and n1 % 5:
     print("fizz-Buzz")
-'''

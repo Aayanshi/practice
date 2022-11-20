@@ -1,5 +1,6 @@
 class Student:
     def __init__(self,n,a,y,g) :  #n = input name i will be same on next line 
+                                   #self is a repwrsentation of object tell about whichever object call 
         self.name = n #class variable (attributes)
         self.age = a
         self.byear = y #define student

@@ -9,7 +9,7 @@ class Mathsmatics :
 
     def multiplictaion(self,num1,num2):
         d = num1 * num2 
-        print(f"The multiplication of your Number = {d}") 
+        print(f"The multiplication of your Numbers = {d}") 
 
     def subraction(self,num1,num2):
         e = num1 - num2

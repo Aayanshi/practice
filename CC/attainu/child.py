@@ -2,7 +2,8 @@ from inheritfile import Parents
 class Child(Parents):
     def __init__(self, height, hairtype, features,eyecolor):
         self.eyecolor = eyecolor
-        super().__init__(height, hairtype, features) #supper me self nahi aata
+        super().__init__(height, hairtype, features) #supper me self nahi aata 
+                                                      # only super(). function can bring or access to parents attributes("height","hairtype") but we can access functions directly
 
     def genes(self):
         g = input("your genes in XX or XY terms = ")

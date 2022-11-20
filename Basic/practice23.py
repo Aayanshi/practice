@@ -1,5 +1,5 @@
 #markslist
-'''student1 = int(input("enter marks of student1 = "))
+student1 = int(input("enter marks of student1 = "))
 student2 = int(input("enter marks of student2 = "))
 student3 = int(input("enter marks of student3 = "))
 student4 = int(input("enter marks of student4 = "))
@@ -12,7 +12,7 @@ markslist.sort()
 markslist.reverse()
 print(markslist)
 
-print(sortedml)'''
+print(sortedml)
 print("tum ja rahe ho")
 mykublist = ["miss u", "love u" ,"khana kha lijiyega", "muaah" , "come soon"]
 kublist = sorted(mykublist)

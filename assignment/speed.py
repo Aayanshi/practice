@@ -1,5 +1,7 @@
 '''Create a class Speed and add a method to convert speed from
 kilometers per hour to meter per sec'''
+
+#ans3.
 class Speed:
     def __init__(self):
         '''self.distance =distance
@@ -26,4 +28,6 @@ class Speed:
 
 a = Speed()
 a.Speedcal()
+print()
 a.convertspeed()
+

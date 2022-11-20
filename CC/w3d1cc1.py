@@ -1,3 +1,4 @@
+#function cc
 '''1. def printMax(a, b):
 2. if a > b:
 3. print(a, 'is maximum')
@@ -37,19 +38,19 @@ print("x is now", x)
 
 
 # answer 3.
-'''def vowel():
+def vowel():
     name =str(input("name here= "))
     for i in name:
-        if i == "a" i== "A" or i == "i" or i == "e" or i == "o" or i == "u":
+        if i == "a" or i== "A" or i == "i" or i == "e" or i == "o" or i == "u":
             continue
         else :
             print(i,end="")    
 
-vowel()'''
+vowel()
 
 print()
 
-'''def name():
+def name():
     n = str(input("name =  "))
     for i in n :
         if i == "t" or i == "p" or i == "a"or i == "k":
@@ -57,7 +58,7 @@ print()
         else:
             print(i, end="")
 
-name()'''
+name()
 
 def vow():
     f = str(input("naam likh= "))

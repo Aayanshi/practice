@@ -37,7 +37,7 @@ star(n)
 def test(n):
     for i in range(n,1,-1):
         print(i)
-    '''    break
+        break
     print(0)
 
 test(10)

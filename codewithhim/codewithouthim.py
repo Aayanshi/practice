@@ -2,7 +2,7 @@
 print them in reverse order with a space between them'''
 n = input("first namme=")
 p = input("last name=")
-print(p,n)
+print(p, n)
 
 '''Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers. Go to the editor
 Sample data : 3, 5, 7, 23
@@ -30,8 +30,8 @@ print(color_list[0:5:3])
 def difference():
     n = int(input("your number= "))
     if n > 17 :
-        c = 17 - n
-        d = c ** 2
+        c = n- 17
+        d = c * 2
         print(d)
 
     elif n <= 17:

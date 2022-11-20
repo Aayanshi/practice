@@ -1,12 +1,12 @@
 #practice conditions if, if else, nested if, elif,
-'''print("chlo shuru karte hai")
+print("chlo shuru karte hai")
 a1 = int(input("enter idhar ="))
 if a1 > 200 :
     if a1 > 2 :
         print("bilkul sahi")
 else :
     print("galatiyaan hi karo tum")
-'''
+
 
 print("kubs is a hardworking teacher")  
 aaina = input("type answer = ")

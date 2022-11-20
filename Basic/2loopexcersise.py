@@ -21,23 +21,16 @@ for i in range(1,5)  :
 
 #3. write a python program to traverse through a 
 # string characters using for loop. stringg = "aainaismindblowing"
-'''name = "aainaismindblowing"
+name = "aainaismindblowing"
 for i in name:
-    print(i)'''
+    print(i)
 
 name = "aaina"
 for i in range(len(name)-1,-1,-1):
     print(name[i])
     
-
-
-
-
-
-
-
-
-'''name = str(input("name to check its pallindrome- "))
+#pallindrome
+name = str(input("name to check its pallindrome- "))
 reverse = ""
 for i in range(len(name)-1,-1,-1):
     reverse = reverse + name[i]
@@ -46,6 +39,6 @@ if name == reverse:
 else :
     print(name,"not huh")    
    
-'''
+
    
     

@@ -5,14 +5,14 @@
 #there are two types of functoins
 # built in 
 # 2. user defined
-'''def number():
+def number():
     n1=int(input("enter you first= "))
     n2=int(input("enter your last= "))
     for i in range(n1,n2+1):
         return(i)
 
 bhaadmejao = number()   
-print(bhaadmejao)'''
+print(bhaadmejao)
 
 
 
@@ -21,21 +21,21 @@ def funk1():
 funk1()    
 
 
-'''def aaina(u,b):
+def aaina():
     u = int(input("here= "))
     b = int(input("here= "))
     print(u + b,"ans.")
 
-aaina(u,b) '''  #doubt 
+aaina() 
 
-'''def aaina():
+def aaina():
     u = int(input("here= "))
     b = int(input("here= "))
     print(u + b,"ans.")
 
-aaina()'''
+aaina()
 
-'''def func(a,b):
+def func(a,b):
     print("kya", a + b)
 
 print(func(1,2))    
@@ -51,10 +51,10 @@ def average():
 
 print(average())   
 print(average.__doc__)
-'''
 
 
-'''n = int(input("here= "))
+
+n = int(input("here= "))
 ans = 0
 for i in range(1,n+1):
     cube = (i ** 3)
@@ -65,23 +65,23 @@ print("answer=", ans)
 n=9
 for i in range(2,n+1): # eat 1 from end value starting value se no connection
     print(i)
- '''
+ 
 
 
 # 10 1to15
-'''n1 = 10
+n1 = 10
 for i in range(5,16):
     table = n1 * i 
     print(table)    
-'''
 
-'''n1 = 10
+
+n1 = 10
 sum = 0
 for i in range(1,11):
     table = n1 * i 
     sum = table + sum
     print(sum)    
-       '''
+       
 
 n= "kub "
 k = "aainu "

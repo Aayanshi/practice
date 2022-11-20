@@ -1,6 +1,6 @@
 #opertator
 #1.Airthmatic
-'''print("5+6= ",5+6)
+print("5+6= ",5+6)
 print("5-6= ",5-6)
 print("5/6= ",5/6)
 print("5*6= ",5*6)
@@ -9,13 +9,13 @@ print("5//6= ",5//6)
 print("5 ** 3",5**3)
 print("5%7= ",5 % 7)
 print("6//5= ",6 // 5 )
-'''
+
 # Assignment operator
 
 
 
 
-'''x = [1,2,5,3,8] #yahan list me no. h
+x = [1,2,5,3,8] #yahan list me no. h
 x[3] += 5 #yahan list me range h
 print(x)
 
@@ -29,7 +29,7 @@ print(i == 2 ) # == means comparision
 print(i <= 4)
 print(i != 4)
 print(i >= 4)
-'''
+
  #logical operators
 a = True
 b = False

@@ -1,5 +1,5 @@
 # 0 to 10 print have to skip 5 or 11 hote hi break
-'''i = 0
+i = 0
 while(True) :
     
     if i+1 == 5:
@@ -9,10 +9,10 @@ while(True) :
     if i + 1 > 10 :
          i = i + 1
          print("congo aapko")
-         break'''
+         break
 
 
-'''i = 0
+i = 0
 #print(i)
 while(True):
     i= i+1
@@ -22,7 +22,7 @@ while(True):
     print(i)
     if i+1>10:
         print("done")
-        break'''
+        break
 
 
 def number():

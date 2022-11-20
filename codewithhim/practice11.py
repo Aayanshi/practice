@@ -10,9 +10,9 @@ print(s)
 
 '''Write a for loop that iterates through a string and prints every letter.
 '''
-'''n = input("any word= ")
+n = input("any word= ")
 for i in n:
-    print(i,",",end=" ")'''
+    print(i,",",end=" ")
 
 
 print()
@@ -20,7 +20,7 @@ print()
 '''Write a program which will append each number from the list bebu to the new list cutu if it's positive.
 take bebu list input from user
 '''
-'''bebu = []
+bebu = []
 for i in range(1,6):
     b = int(input("number= "))
     bebu.append(b)
@@ -33,7 +33,7 @@ for i in bebu:
     else:
         continue
 
-print(cutu)   ''' 
+print(cutu)   
 
 '''inu = [2,7,8,9,12,34,56,76,21,5,46]
 write a program to print the list consisting sqaure of the elements of list inu in the same sequence.

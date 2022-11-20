@@ -1,4 +1,5 @@
-'''from random import randint
+#Guess the number
+from random import randint
 tries = 0
 result = randint(1,10)
 
@@ -15,7 +16,7 @@ while guess != result :
         guess = int(input("try again= "))
         tries = tries+1
 print("congo you got the number this time")
-print("it took you", tries," tries to guess the number")'''
+print("it took you", tries," tries to guess the number")
 
 
 

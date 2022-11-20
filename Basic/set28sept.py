@@ -25,9 +25,9 @@ print(set(dict1))
 
 
 
-'''print(type(s1))
+print(type(s1))
 s2 = set ([1,2,3,4,5,6])
-print(s2)'''
+print(s2)
 
 
 Aainu = [20,17,62,62,12,2,2,34,2,20,62]

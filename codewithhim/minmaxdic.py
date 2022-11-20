@@ -10,7 +10,7 @@ class MinMax:
             n = (input("Your Best Qualities Please=  "))
             p = int(input("How much do you have=  "))
             d[n] = p
-        mx = float('-inf')
+        mx = float('-inf')   #very big 
         it = ""
         for i in d.keys():
             if mx < d[i] :
@@ -28,7 +28,7 @@ class MinMax:
             n = (input("Your Worst traits=  "))
             p = (int(input("how much do you have= ")))
             d[n] = p
-        mi = float('-inf')
+        mi = float('-inf')   # very small
         it = ""
         for i in d.keys():
             if mi < d[i]:
@@ -42,10 +42,10 @@ class MinMax:
 
 
 
-        
+       
 a = MinMax()  
 a.Maxima() 
 a.Minima()
-           
+
 
 

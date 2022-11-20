@@ -9,5 +9,6 @@ while(a > 0):
                     print(n,end=" ")
                 print()    
                                  # second last me aata hai empty print
+                                 
 
 

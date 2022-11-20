@@ -1,4 +1,4 @@
-'''mylist = ["khana","pina", "sona" ,"padhna", "design","code" ]
+mylist = ["khana","pina", "sona" ,"padhna", "design","code" ]
 print(mylist)
 mylist.sort()
 print(mylist)
@@ -22,7 +22,7 @@ numbers.append(60)
 numbers.insert(3,37)
 numbers.remove(6)
 numbers.pop()
-print(numbers)'''
+print(numbers)
 
 
 

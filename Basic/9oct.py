@@ -1,14 +1,14 @@
 #break continue 
-'''i = 0
+i = 0
 while(i<45):
     print(i + 1, end= " ")
     if (i==44):
         break
     i = i + 1
-'''
+
 # user se input lena ahi jab woh hundered se upar ho jaye toh break
 
-'''i = 0
+i = 0
 while(True) :
     n1 = int(input("your number please= "))
     if n1 < 100 :
@@ -21,7 +21,7 @@ while(True) :
         break
      
 
-'''
+
 while(True) :
     n1 = int(input("your number please= "))
     if n1 >100:

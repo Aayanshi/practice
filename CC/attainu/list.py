@@ -33,10 +33,10 @@ for i in range(len(a)):
 
 # user se list 
 # list comperihennsion
-'''b = input("write what u want into list = ")
+b = input("write what u want into list = ")
 c = int(input("how many times do u want this= "))
 A = [b for i in range(c)]
-print(A)'''
+print(A)
 
 v = [[0,0,0,] for i in range(3)]
 print(v)

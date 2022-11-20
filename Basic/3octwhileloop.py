@@ -1,17 +1,18 @@
-'''i = 2
+#While loop
+
+i = 2
 while (i<20):
     print(i + 3)
-    i = i+ 3'''
+    i = i+ 3
 
 
-'''i = 1
+i = 1
 while (i<27):
-    print(i)'''
+    print(i)
     #isme aapne ladai ki thi
     
 
-
-'''i = 2
+i = 2
 while (i<=2):
     n1 = int(input("enter your no.- "))
     
@@ -28,7 +29,7 @@ while (i<=2):
     else :
         print("beta tumse na ho paayega")
         continue 
-'''
+
 
 i = 1
 while i < 6 :

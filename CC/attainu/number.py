@@ -32,5 +32,5 @@ a = Number("wholenumber")
 print(a.typenumber)
 
 a.primenum()
-'''a.evenodd()'''
+a.evenodd()
 

@@ -2,7 +2,7 @@
 # vertical are columns "j" up down peek 
 
 
-'''#square
+#square
 n = int(input("put your number= "))
 for i in range(n):  
     for j in range(n):
@@ -29,9 +29,9 @@ n3 = int(input("put your number= "))
 for i in range(0,n3,1):
     for j in range(i,n3,1):
         print("*", end=" ")
-    print()'''
+    print()
 
-'''#left arrow head
+#left arrow head
 n4 = int(input("put your here= "))
 for i in range(0,n4-1,1):
     for j in range(0,i+1,1):
@@ -59,7 +59,7 @@ for i in range(0,n6,1):
     for j in range(i,n6,1):
         print("%",end=" ")
     print()        
-'''
+
 
 '''#right arrow head
 n7 = int(input("put your number= "))

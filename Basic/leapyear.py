@@ -1,10 +1,10 @@
 #ainu ka sol
-'''print("lets check leap year ")
+print("lets check leap year ")
 year = (int(input("put here= ")))
 if (year % 100 == 0 and year % 400 == 0 ) or year % 4 == 0 :
     print("yeyey, your year is leap year")
 else :
-    print("your year is not leap,sorry")'''
+    print("your year is not leap,sorry")
 
 #solution leap year kubs ka sol2
 year = int(input("enter the year to check =  "))
@@ -20,10 +20,9 @@ else:
     else:
         print("sorli not a leap year sweetu")
 
-'''paridha_list = [12, 14, 567, 34, 45, 87]
+paridha_list = [12, 14, 567, 34, 45, 87]
 print(18 in paridha_list)
 check = 12 not in paridha_list
 if 14 in paridha_list :
     print("yes")
 print(check)        
-'''
