@@ -20,6 +20,6 @@ print(f"so the average is {c}")
 n = input("enter any string= ")
 s = 0
 k = 0
-
+'''
 for i in n:
-    if i in n         
+    if i in n      '''   

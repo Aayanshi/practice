@@ -47,7 +47,7 @@ Step 5) 2 is even; divide by 2 and obtain 1.
 Step 6) 1 is odd; subtract 1 and obtain 0.
 hint: use while loop like while num !=0 and then write logic inside the loop'''
 
-num = int(input("Enter no. by your aukaat= "))
+num = int(input("Enter number by your choice= "))
 step = 0
 while num != 0:
     if num % 2 == 0:
@@ -58,5 +58,5 @@ while num != 0:
         num = num - 1
         step = step + 1 
 
-print(f"So, steps have taken {num} to become zero = {step}")
+print(f"So, steps have taken to become zero = {step}")
 

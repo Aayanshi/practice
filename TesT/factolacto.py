@@ -14,14 +14,18 @@ class FactoLacto:
         n = int(input("Enter your number= "))
         for i in range(1,n+1):
             c = c*i 
-            
-
-        
-        
+    
         print(c)    
 
+class Childlike(FactoLacto):
+    def __init_subclass__(cls) -> None:
+        return super().__init_subclass__()
+    
 
-obj = FactoLacto()
-obj.Fucktorial()
+            
+
+
+o = Childlike(FactoLacto)
+o.Fucktorial()
 
 

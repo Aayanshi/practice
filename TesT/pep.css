@@ -1,11 +1,11 @@
 body {
-    font-family: 'Anaheim';
+    font-family: 'Monserat';
     font-size: 1.2em;
     
 }
 
 #outside {
-    background-color: rgb(75, 74, 75);
+    background-color: rgb(222, 222, 222);
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -26,11 +26,11 @@ form {
 }
 
 #survey-form {
-    background-color: rgb(159, 139, 172);
+    background-color: rgb(159, 188, 231);
 }
 
 fieldset {
-    border: 1px solid lightgray;
+    border: 2px solid rgb(18, 15, 15);
     margin: 10px;
 }
 
@@ -78,10 +78,10 @@ textarea {
 
 button {
     margin: .5em;
-    font-size: 1em;
+    font-size: 2em;
     text-transform: capitalize;
-    background-color: rgb(123, 91, 209);
-    color: rgb(20, 6, 6);
+    background-color: rgb(233, 232, 232);
+    color: rgb(15, 103, 210);
     border: none;
     padding: 5px;
     border-radius: 2px;
